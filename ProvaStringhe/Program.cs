@@ -23,6 +23,7 @@ namespace ProvaStringhe
             //scrittura e lettura stringa
             Console.Write("stringa: ");
             string stringa = Console.ReadLine();
+            //richiamo il metodo e scrittura risposta
             bool ris2 = MetodiStringhe.ClasseStringhe.ContieneChar(stringa);
             Console.WriteLine(ris2);
         }
